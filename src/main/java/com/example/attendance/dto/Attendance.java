@@ -4,12 +4,12 @@ import java.time.LocalDateTime;
 
 
 
-public class Attendnce{
+public class Attendance{
 	private String userId;
 	private LocalDateTime checkInTime;
 	private LocalDateTime checkOutTime;
 	
-	public Attendnce(String userId) {
+	public Attendance(String userId) {
 		this.userId = userId;
 	}
 	
@@ -24,7 +24,7 @@ public class Attendnce{
 	public void setCheckInTime(LocalDateTime checkInTime) {
 		this.checkInTime=checkInTime;
 	}
-	public LocalDateTime getCheckOutTIme() {
+	public LocalDateTime getCheckOutTime() {
 		return checkOutTime;
 	}
 	public void setCheckOutTime(LocalDateTime checkOutTime) {
