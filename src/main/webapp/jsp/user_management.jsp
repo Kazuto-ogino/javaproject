@@ -10,7 +10,6 @@
 <body>
 	<div class="container">
 		<h1>ユーザー管理</h1>
-		<p>ようこそ</p>
 		<div class="main-nav">
 			<a href="AttendanceServlet?action=filter">勤怠管理</a>
 			<a href="UserServlet?action=list">ユーザー管理</a>

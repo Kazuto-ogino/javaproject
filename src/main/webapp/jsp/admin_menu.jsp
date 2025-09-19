@@ -12,7 +12,7 @@
 		<h1>管理者メニュー</h1>
 		<p>ようこそ,${user.username}さん</p>
 		<c:if test="${not empty findUnfinishedChekOut}">
-			<p class="warning-message">退勤が記録されていない従業員がいます！</p>
+			<p class="warning-message">退勤が記録されていない従業員がいます</p>
  			<ul>
  				<c:forEach var="att" items="${findUnfinishedChekOut}">
 					<li>${att.userId} さんが出勤中</li>
@@ -78,7 +78,7 @@
 				</c:if>
 			</tbody>
 		</table>
-		<h3>月別退勤グラフ</h3>
+		<h3>月別勤怠グラフ</h3>
 		<h4>月別合計時間</h4>
 		<pre>
 			<c:forEach var="entry" items="${monthlyWorkingHours }">

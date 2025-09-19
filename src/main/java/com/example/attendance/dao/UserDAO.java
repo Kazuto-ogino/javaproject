@@ -13,7 +13,7 @@ public class UserDAO {
 	
 	static {
 		users.put("admin", new User("admin",hashPassword("alpine"),"admin",true));
-		users.put("ogino", new User("ogino",hashPassword("admin"),"employee",true));
+		users.put("ogino", new User("ogino",hashPassword("alpine"),"employee",true));
 	}
 	
 	public User findByUsername(String username) {
